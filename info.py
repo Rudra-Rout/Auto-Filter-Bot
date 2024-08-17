@@ -34,7 +34,7 @@ if len(BOT_TOKEN) == 0:
 PORT = int(environ.get('PORT', '80'))
 
 # Bot pics
-PICS = (environ.get('PICS', 'https://telegra.ph/file/58fef5cb458d5b29b0186.jpg https://telegra.ph/file/f0aa4f433132769f8970c.jpg https://telegra.ph/file/f515fbc2084592eca60a5.jpg https://telegra.ph/file/20dbdcffaa89bd3d09a74.jpg https://telegra.ph/file/6045ba953af4def846238.jpg')).split()
+PICS = (environ.get('PICS', 'https://te.legra.ph/file/28072d2769ff47a75e909.jpg https://te.legra.ph/file/150c38cad334f6a36d924.jpg https://te.legra.ph/file/bbe6545cc5459dc3d3369.jpg https://te.legra.ph/file/9765066148a76efa14156.jpg https://te.legra.ph/file/bd9b10dd1759d45c6293e.jpg https://te.legra.ph/file/cc4dfeee5ea5dea688808.jpg https://te.legra.ph/file/1e28e21eea1b5861daade.jpg')).split()
 
 # Bot Admins
 ADMINS = environ.get('ADMINS', '')
@@ -77,7 +77,7 @@ OWNER_USERNAME = environ.get("OWNER_USERNAME", "https://t.me/rudra_tg")
 UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/rudraraut')
 FILMS_LINK = environ.get('FILMS_LINK', 'https://t.me/PrimeMod_APK')
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/rudraraut")
-VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/+-gvlAohrcNRiMDk1")
+VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/+tO_VMvYw6lNlOWE1")
 
 # Bot settings
 DELETE_TIME = int(environ.get('DELETE_TIME', 3600)) # Add time in seconds
@@ -87,17 +87,17 @@ LANGUAGES = [language.lower() for language in environ.get('LANGUAGES', 'hindi en
 QUALITY = [quality.lower() for quality in environ.get('QUALITY', '360p 480p 720p 1080p 2160p').split()]
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", script.IMDB_TEMPLATE)
 FILE_CAPTION = environ.get("FILE_CAPTION", script.FILE_CAPTION)
-SHORTLINK_URL = environ.get("SHORTLINK_URL", "mdiskshortner.link")
-SHORTLINK_API = environ.get("SHORTLINK_API", "36f1ae74ba1aa01e5bd73bdd0bc22aa915443501")
+SHORTLINK_URL = environ.get("SHORTLINK_URL", "publicearn.com")
+SHORTLINK_API = environ.get("SHORTLINK_API", "002f169e77fe7f00dbdba6d4ddc7e8e62e9c8a32")
 VERIFY_EXPIRE = int(environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 WELCOME_TEXT = environ.get("WELCOME_TEXT", script.WELCOME_TEXT)
 INDEX_EXTENSIONS = [extensions.lower() for extensions in environ.get('INDEX_EXTENSIONS', 'mp4 mkv').split()]
 PM_FILE_DELETE_TIME = int(environ.get('PM_FILE_DELETE_TIME', '3600'))
 
 # boolean settings
-IS_PM_SEARCH = is_enabled('IS_PM_SEARCH', False)
-IS_VERIFY = is_enabled('IS_VERIFY', False)
-AUTO_DELETE = is_enabled('AUTO_DELETE', False)
+IS_PM_SEARCH = is_enabled('IS_PM_SEARCH', True)
+IS_VERIFY = is_enabled('IS_VERIFY', True)
+AUTO_DELETE = is_enabled('AUTO_DELETE', True)
 WELCOME = is_enabled('WELCOME', False)
 PROTECT_CONTENT = is_enabled('PROTECT_CONTENT', False)
 LONG_IMDB_DESCRIPTION = is_enabled("LONG_IMDB_DESCRIPTION", False)
@@ -108,11 +108,11 @@ SPELL_CHECK = is_enabled("SPELL_CHECK", True)
 SHORTLINK = is_enabled('SHORTLINK', False)
 
 #premium info
-PAYMENT_QR = environ.get('PAYMENT_QR', 'http://graph.org/file/cacbbea472e5a48ce0d64.jpg')
-OWNER_UPI_ID = environ.get('OWNER_UPI_ID', 'sampleupi@upi')
+PAYMENT_QR = environ.get('PAYMENT_QR', 'https://te.legra.ph/file/fcdd180561bf72c016dea.jpg')
+OWNER_UPI_ID = environ.get('OWNER_UPI_ID', 'araj9999@ybl')
 
 # for stream
-IS_STREAM = is_enabled('IS_STREAM', False)
+IS_STREAM = is_enabled('IS_STREAM', True)
 BIN_CHANNEL = environ.get("BIN_CHANNEL", "")
 if len(BIN_CHANNEL) == 0:
     print('Error - BIN_CHANNEL is missing, exiting now')
