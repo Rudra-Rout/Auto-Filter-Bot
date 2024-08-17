@@ -72,10 +72,10 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Files')
 
 # Links
-SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/+JXlkT1YjPQg4MWVl')
+SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/+_iY2Nubh_fo1Y2Zl')
 OWNER_USERNAME = environ.get("OWNER_USERNAME", "https://t.me/rudra_tg")
 UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/rudraraut')
-FILMS_LINK = environ.get('FILMS_LINK', 'https://t.me/PrimeMod_APK')
+FILMS_LINK = environ.get('FILMS_LINK', 'https://t.me/+BVPpCkfu8uthZTc1')
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/rudraraut")
 VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/+tO_VMvYw6lNlOWE1")
 
